@@ -1,0 +1,13 @@
+/*so here the inline css will work first then internal css then  external
+ inline bgc=> yellow
+internal bgc=>red
+external bgc=>purple
+ 
+here the default color should be yellow , if we reomve yellow then its color should be red and if we remove both then color should be purple
+
+agar internal css ko jita na padega inline se to we need to use important key while styling element in internal css
+ */
+
+.para {
+  background-color: purple  
+}

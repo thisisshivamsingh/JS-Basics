@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1  wala hain ye    by default parent ke width bhi 100% and child ke bhi   
+        now yaha parent ko bhi width de diya so ye to 50 percent main aayega and child 
+        ka 20% hain to ye wrt 50% ka 20% aayega kya ? child      
+       .parent{
+            border: 1px solid black;
+            background-color: beige;
+            width: 50%;
+             
+         }  
+         so this 20 percent is with refernce to parent as the width of parent is 100% and here 
+         we are giving child width as 20% wrt parent 
+        .child{
+            border: 1px solid green;
+            background-color: aqua;
+            width: 20%; 
+         } 
+         */
+
+      /* second wala hain ye 
+         view port ke height means vertical length and view port ke width mean horizontal distance
+         isme humne vh and vw ke baat ke hain
+         .container{
+            border: 1px solid green;
+            background-color: beige;
+            height: 100vh; 
+            width: 50vw;
+         }
+        */
+
+      /* thirs wala concept  this is equal to 100px as 10px is size of parent container and for child we 
+       are putting 10 em so 10*10 =100px 
+      .container {
+        font-size: 10px;
+      }
+      .box {
+        
+        font-size: 10em;
+      }
+    */
+
+      /* by default 16px ke dimension hote hain and rem is depend on root element agar main yaha likhu ke 
+    font-size:5rem then ye hoga 5 *16 = 80px 
+    .firstPara{
+        border: 1px solid black;
+        font-size:5rem;
+    }
+*/
+    </style>
+  </head>
+  <body>
+    <!-- 1 wala hain 20% and 80% 
+    <div class="parent">
+        <div class="child">child</div>
+    </div> -->
+
+    <!-- 2 wala hain and it is of vw and vh
+         <div class="container">
+        welcome to codehelp
+    </div> -->
+
+    <!-- 3 ye wala em concept hain 
+        
+        <p>Hello je</p>
+    <div class="container">
+      <div class="box">welcome to codehelp</div>
+    </div> -->
+    <!--  4 wala hain rem jo bhi property aapka html tag carry kar raha hoga uske acc aapke dimenisons  set ho jayegi 
+ if you are using rem unit 
+
+ <p class="firstPara">Hello jee</p>
+
+-->
+  </body>
+</html>
